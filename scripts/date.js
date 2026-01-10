@@ -1,6 +1,10 @@
+let date = new Date()
+
+const currentYear = document.querySelector("#current-year")
+
+currentYear.innerHTML = date.getFullYear()
 // render  copyright year (current year)
-// render lastModified
 
 
 
-// document.getElementById("lastModified").innerHTML = document.lastModified;
+document.getElementById("lastModified").innerHTML = `Last modification ${document.lastModified}`;

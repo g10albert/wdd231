@@ -13,27 +13,37 @@
   <script defer src="./scripts/date.js"></script>
   <script defer src="./scripts/course.js"></script>
 
-  <meta name="description" content="">
-  <meta name="name" content="">
-  <meta name="author" content="">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <meta name="description"
+    content="Empowering the business community of Santiago, RD. Join the CCPYS to access networking events, business resources, and a professional directory.">
+  <meta name="name" content="Camara Santiago Digital">
+  <meta name="author" content="Albert Garcia">
+  <title>Camara Santiago Digital</title>
 </head>
 
 <body>
   <header>
-    <p>svg logo</p>
-    <span>Albert Garcia</span>
-    <button>hamburguer</button>
+    <div class="header-divider">
+      <div class="logo-container">
+        <img class="logo" src="./images/logo.svg" alt="Website logo (a briefcase)">
+        <span class="logo-text">Camara Santiago Digital</span>
+      </div>
+      <div><button class="hamburguer-logo" id="menu-btn">☰</button></div>
+    </div>
     <nav>
-      <ul>
-        <li>
-          <a href="#">Home</a>
+      <ul class="menu" id="menu">
+        <li class="menu-li">
+          <a class="menu-link" href="#">Home</a>
         </li>
-        <li>
-          <a href="#">Chamber</a>
+        <li class="menu-li">
+          <a class="menu-link" href="./chamber-project.html">Chamber Project</a>
         </li>
-        <li>
-          <a href="#">Final</a>
+        <li class="menu-li">
+          <a class="menu-link" href="./final-project.html">Final Project</a>
         </li>
       </ul>
     </nav>
@@ -41,41 +51,67 @@
 
   <main>
     <h1>Home</h1>
-    <section>
-      <h2>Section</h2>
-    </section>
-    <section>
-      <h2>Section</h2>
-    </section>
-    <section>
-      <h2>Section</h2>
-    </section>
+    <div class="sections-container">
+      <section class="about-section">
+        <h2>About Me</h2>
+        <p>I am a patient, responsible, and creative person with
+          the ability to work both independently and as part of a team. I
+          always maintain a positive attitude in any situation and am
+          eager to learn and adapt.</p>
+      </section>
+      <section class="photo-section">
+        <h2>Student Photo</h2>
+        <div class="profile-container">
+          <img class="profile-photo" src="./images/student-profile.jpg" alt="Photo of student Albert Garcia">
+        </div>
+      </section>
+      <section class="courses-section">
+        <h2>Web Certificate Courses</h2>
+        <div class="courses" id="courses">
+          <button id="all">ALL</button>
+          <button id="cse">CSE</button>
+          <button id="wdd">WDD</button>
+        </div>
+        <div class="courses-info" id="courses-info">
+      
+        </div>
+        <div id="total-credits" class="total-credits"></div>
+      </section>
+    </div>
   </main>
 
   <footer>
-    <div>
-      <ul>
+    <div class="footer-icons-container">
+      <ul class="footer-icons">
         <li>
-          <a href="#">github</a>
+          <a target="_blank" href="https://github.com/g10albert">
+            <img class="footer-icon" src="./images/github.svg" alt="github logo">
+          </a>
         </li>
         <li>
-          <a href="#">linked in</a>
+          <a target="_blank" href="https://www.linkedin.com/in/g10albert/">
+            <img class="footer-icon" src="./images/linkedin.svg" alt="linkedin logo">
+          </a>
         </li>
         <li>
-          <a href="#">youtube</a>
+          <a target="_blank" href="https://www.youtube.com/@g10albert10">
+            <img class="footer-icon" src="./images/youtube.svg" alt="youtube logo">
+          </a>
         </li>
         <li>
-          <a href="#">instagram</a>
+          <a target="_blank" href="www.instagram.com/g10albert">
+            <img class="footer-icon" src="./images/instagram.svg" alt="instagram logo">
+          </a>
         </li>
       </ul>
     </div>
-    <div>
-      <p>copyright symbol and current year</p>
-      <p>Albert Garcia</p>
-      <p>Dominican Republic</p>
-    </div>
-    <div id="lastModified">
-
+    <div class="footer-container">
+      <div class="footer-info">
+        <span>&copy <span id="current-year"></span></span>
+        <span> - Albert Garcia</span>
+        <span> - Dominican Republic</span>
+      </div>
+      <div class="lastModified" id="last-modified"></div>
     </div>
   </footer>
 </body>

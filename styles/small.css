@@ -1,0 +1,178 @@
+:root {
+  --primary-color: #1034a6;
+  --bg-color: #f8f9fa;
+  --text-on-dark: #ffffff;
+  --accent-color: #d4af37;
+  --text-on-light: #212529;
+
+  --font-weight-h: 600;
+
+  --font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-on-light);
+  font-family: var(--font-family);
+}
+
+.header-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 5px;
+}
+
+.logo {
+  width: 1.2rem;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+}
+
+.hamburguer-logo {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.menu {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: none;
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
+}
+
+.active {
+  display: block;
+}
+
+.menu > li {
+  padding-bottom: 10px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: var(--text-on-dark);
+  border-bottom: 1px solid var(--text-on-dark);
+}
+
+main {
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: var(--font-weight-h);
+}
+
+h2 {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-h);
+}
+
+.profile-container {
+  width: 110px;
+  margin: auto;
+}
+
+.profile-photo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-around;
+}
+
+.courses > button {
+  width: 30%;
+  background-color: var(--accent-color);
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+}
+
+.courses > button:active {
+  transform: scale(0.98);
+}
+
+.courses-info {
+  margin-top: 10px;
+}
+
+.course {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.completed {
+  background-color: var(--accent-color);
+}
+
+.completed::after {
+  content: "\2713";
+}
+
+.total-credits {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.footer-icons-container {
+  width: 60%;
+  margin: auto;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icon {
+  width: 1.6rem;
+}
+
+.footer-container {
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
+  padding: 10px;
+}
+
+.footer-info {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.last-modified {
+  margin-top: 4px;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 9px;
+}

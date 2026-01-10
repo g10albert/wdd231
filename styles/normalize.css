@@ -347,3 +347,12 @@ template {
 [hidden] {
   display: none;
 }
+
+/* unstyle buttons */
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
