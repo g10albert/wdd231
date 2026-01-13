@@ -1,0 +1,35 @@
+body {
+  background: #9faea7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+  text-align: center;
+}
+
+p {
+  margin: 2px;
+}
+
+.h1, .name {
+  color: #0b45b0;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background: #5e8254;
+  text-align: center;
+}
+
+.name{
+  margin: 10px;
+} 
+
+.portrait {
+  margin: 10px;
+}

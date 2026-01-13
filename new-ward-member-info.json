@@ -1,0 +1,19 @@
+{
+  "familyName": "Garcia",
+  "movedIn": "10-05/-018",
+  "familyMembersNumber": 2,
+  "visitedByBishopric": true,
+
+  "memberData": [
+    {
+      "name": "Jose",
+      "gender": "Male",
+      "birthdate": "10-10-2003"
+    },
+    {
+      "name": "Gabriel",
+      "gender": "Male",
+      "birthdate": "10-11-2005"
+    }
+  ]
+}
