@@ -88,6 +88,10 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.business-h1 {
+  padding: 0 10px;
+}
+
 #companies {
   margin: 10px;
   gap: 10px;
