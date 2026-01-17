@@ -139,7 +139,7 @@ a {
   color: var(--text-on-light);
   font-size: 0.8rem;
   word-break: break-all;
-  border-bottom: 1px solid var(--text-on-dark);
+  border-bottom: 1px solid var(--primary-color);
 }
 
 /* FOOTER */

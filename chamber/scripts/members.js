@@ -13,9 +13,6 @@ async function getMemberData() {
 
   let members = data.members;
 
-  console.log(members);
-  
-
   members.forEach((member) => {
     html = `
       <div class="company">
