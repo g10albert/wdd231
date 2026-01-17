@@ -1,0 +1,67 @@
+{
+  "members": [
+    {
+      "name": "Cervecería Nacional Dominicana",
+      "address": "Av. 27 de Febrero, Santiago de los Caballeros 51000",
+      "phoneNumber": "(809) 247-4000",
+      "websiteURL": "https://www.cnd.com.do",
+      "image": "https://absolutebeer.com/wp-content/uploads/2020/02/AB-Breweries-Cerveceria-Nacional-Dominicana-Logo-1.jpg",
+      "membershipLevel": 3,
+      "industry": "Beverages"
+    },
+    {
+      "name": "Centro León",
+      "address": "Av. 27 de Febrero 146, Villa Progreso",
+      "phoneNumber": "(809) 582-2315",
+      "websiteURL": "https://centroleon.org.do",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjKdi_a-QtBwdxJETIYlaiidzONhJUuaGXVQ&s",
+      "membershipLevel": 3,
+      "industry": "Cultural Center"
+    },
+    {
+      "name": "Banco Popular Dominicano",
+      "address": "Calle del Sol esq. San Luis",
+      "phoneNumber": "(809) 544-5500",
+      "websiteURL": "https://popularenlinea.com",
+      "image": "https://media.licdn.com/dms/image/v2/C4D0BAQFUbVcDk0BtUQ/company-logo_200_200/company-logo_200_200/0/1631303922752?e=2147483647&v=beta&t=un0qLYNX_rBI9A7VN6GrRhs3pw1St51DjS42BcA6ao8",
+      "membershipLevel": 3,
+      "industry": "Banking"
+    },
+    {
+      "name": "Hospital Metropolitano de Santiago (HOMS)",
+      "address": "Autopista Duarte Km 2.8",
+      "phoneNumber": "(829) 947-2222",
+      "websiteURL": "https://homs.com.do",
+      "image": "https://pbs.twimg.com/profile_images/869188113612058627/RUOH218b_400x400.jpg",
+      "membershipLevel": 2,
+      "industry": "Healthcare"
+    },
+    {
+      "name": "La Aurora Cigar Factory",
+      "address": "Guazumal, Tamboril, Santiago",
+      "phoneNumber": "(809) 575-1903",
+      "websiteURL": "https://www.laaurora.com.do",
+      "image": "https://pim.cigarpassion.com/upload/c/la-aurora.jpg",
+      "membershipLevel": 2,
+      "industry": "Tobacco"
+    },
+    {
+      "name": "PUCMM - Santiago",
+      "address": "Autopista Duarte Km 1 1/2",
+      "phoneNumber": "(809) 580-1011",
+      "websiteURL": "https://www.pucmm.edu.do",
+      "image": "https://pucmm.edu.do/somos/PublishingImages/conoce-pucmm/logo.jpg",
+      "membershipLevel": 1,
+      "industry": "Education"
+    },
+    {
+      "name": "Aeropuerto Internacional del Cibao",
+      "address": "Av. Víctor Espaillat Mera",
+      "phoneNumber": "(809) 233-8000",
+      "websiteURL": "https://www.aeropuertocibao.com.do",
+      "image": "https://pbs.twimg.com/profile_images/1367894939217108994/MFjKj_EU_400x400.jpg",
+      "membershipLevel": 3,
+      "industry": "Transportation"
+    }
+  ]
+}

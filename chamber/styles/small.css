@@ -1,0 +1,190 @@
+:root {
+  --primary-color: #1034a6;
+  --bg-color: #f8f9fa;
+  --text-on-dark: #ffffff;
+  --accent-color: #d4af37;
+  --text-on-light: #212529;
+
+  --font-weight-h: 600;
+
+  --font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-on-light);
+  font-family: var(--font-family);
+}
+
+.header-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 5px;
+}
+
+.logo {
+  width: 1.2rem;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+}
+
+.hamburguer-logo {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.menu {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: none;
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
+}
+
+.active {
+  display: block;
+}
+
+.menu > li {
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-link {
+  color: var(--text-on-dark);
+  border-bottom: 1px solid var(--text-on-dark);
+}
+
+/* MAIN */
+
+.btns {
+  text-align: center;
+}
+
+.btn {
+  background-color: #1034a6;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#companies {
+  margin: 10px;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#companies.grid .company-name {
+  display: none;
+}
+
+#companies.list .company-image {
+  display: none;
+}
+
+.company {
+  background: var(--accent-color);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.company > p {
+  margin: 10px 0;
+  font-size: 0.8rem;
+}
+
+.company-image {
+  display: block;
+  margin: 10px auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.company-website {
+  color: var(--text-on-light);
+  font-size: 0.8rem;
+  word-break: break-all;
+  border-bottom: 1px solid var(--text-on-dark);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
+  text-align: center;
+}
+
+.contact-info {
+  padding: 10px;
+}
+
+.contact {
+  padding-bottom: 5px;
+}
+
+.contact-mail {
+  display: block;
+  color: white;
+}
+
+.footer-icons-container {
+  width: 60%;
+  margin: auto;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icon {
+  width: 1.6rem;
+}
+
+.footer-container {
+  padding: 10px;
+}
+
+.footer-info {
+  font-size: 0.9rem;
+}
+
+.last-modified {
+  font-size: 0.8rem;
+  margin-top: 9px;
+}

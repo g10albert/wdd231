@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px) {
+  :root {
+    --primary-color: #1034a6;
+    --bg-color: #f8f9fa;
+    --text-on-dark: #ffffff;
+    --accent-color: #d4af37;
+    --text-on-light: #212529;
+
+    --font-weight-h: 600;
+
+    --font-family: "Montserrat", sans-serif;
+  }
+  .hamburguer-logo {
+    display: none;
+  }
+
+  .menu {
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .menu > li {
+    padding-bottom: 0;
+    height: 100%;
+    line-height: 2;
+  }
+
+  .menu-li:hover {
+    background: var(--accent-color);
+  }
+
+  .menu-link {
+    border-bottom: none;
+    padding: 5px;
+  }
+
+
+
+
+  /* MAIN */
+
+.btns {
+  margin: 10px;
+}
+
+
+
+
+  /* FOOTER */
+  .footer-icons-container {
+    width: 20%;
+  }
+
+  .footer-icon {
+    width: 2.5rem;
+  }
+}

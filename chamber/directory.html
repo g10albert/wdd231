@@ -3,33 +3,29 @@
 
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Camara Santiago Digital" />
+  <meta property="og:description"
+    content="Empowering the business community of Santiago, RD. Join the CCPYS to access networking events, business resources, and a professional directory." />
+  <meta property="og:image" content="./images/logo.svg" />
+  <meta property="og:url" content="https://yourwebsite.com/your-page" />
+  <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+  <meta name="description" content="">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/small.css">
   <link rel="stylesheet" href="./styles/larger.css">
-
-  <meta property="og:title" content="Camara Santiago Digital">
-  <meta property="og:description" content="Empowering the business community of Santiago, RD. Join the CCPYS to access networking events, business resources, and a professional directory.">
-  <meta property="og:image" content="./images/logo.svg">
-  <meta property="og:url" content="http://127.0.0.1:5500/index.html">
-
   <script defer src="./scripts/navigation.js"></script>
   <script defer src="./scripts/date.js"></script>
-  <script defer src="./scripts/course.js"></script>
-
-  <link rel="icon" href="./images/favicon.ico">
+  <script defer src="./scripts/members.js"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
 
-  <title>Camara Santiago Digital</title>
 
-  <meta name="description"
-    content="Empowering the business community of Santiago, RD. Join the CCPYS to access networking events, business resources, and a professional directory.">
-  <meta name="author" content="Albert Garcia">
+  <meta name="author" content="">
+  <title>Camara Santiago Digital</title>
 </head>
 
 <body>
@@ -44,10 +40,10 @@
     <nav>
       <ul class="menu" id="menu">
         <li class="menu-li">
-          <a class="menu-link" href="#">Home</a>
+          <a class="menu-link" href="../index.html">Home</a>
         </li>
         <li class="menu-li">
-          <a class="menu-link" href="./chamber/directory.html">Chamber Project</a>
+          <a class="menu-link" href="./directory.html">Chamber Project</a>
         </li>
         <li class="menu-li">
           <a class="menu-link" href="./final-project.html">Final Project</a>
@@ -55,39 +51,29 @@
       </ul>
     </nav>
   </header>
-
   <main>
-    <h1>Home</h1>
-    <div class="sections-container">
-      <section class="about-section">
-        <h2>About Me</h2>
-        <p>I am a patient, responsible, and creative person with
-          the ability to work both independently and as part of a team. I
-          always maintain a positive attitude in any situation and am
-          eager to learn and adapt.</p>
-      </section>
-      <section class="photo-section">
-        <h2>Student Photo</h2>
-        <div class="profile-container">
-          <img class="profile-photo" src="./images/student-profile.jpg" alt="Photo of student Albert Garcia">
-        </div>
-      </section>
-      <section class="courses-section">
-        <h2>Web Certificate Courses</h2>
-        <div class="courses" id="courses">
-          <button id="all">ALL</button>
-          <button id="cse">CSE</button>
-          <button id="wdd">WDD</button>
-        </div>
-        <div class="courses-info" id="courses-info">
 
-        </div>
-        <div id="total-credits" class="total-credits"></div>
-      </section>
+    <div class="companies-container">
+      <div class="btns">
+        <button class="btn" id="listBtn"><img src="./images/card-list.svg" alt="list icon"></button>
+        <button class="btn" id="gridBtn"><img src="./images/card-grid.svg" alt="grid icon"></button>
+      </div>
+      <div id="companies" class="grid">
+
+
+      </div>
     </div>
-  </main>
 
-  <footer>
+
+  </main>
+  <footer class="footer">
+    <div class="contact-info">
+      <div class="contact">Camara Santiago Digital</div>
+      <div class="contact">Calle Hermanas Mirabal, 10</div>
+      <div class="contact">Santiago, Dominican Republic</div>
+      <a class="contact contact-mail" href="#">camara@mysite.com</a>
+      <div class="contact">(809) 543-2442</div>
+    </div>
     <div class="footer-icons-container">
       <ul class="footer-icons">
         <li>
@@ -114,9 +100,10 @@
     </div>
     <div class="footer-container">
       <div class="footer-info">
-        <span>&copy; <span id="current-year"></span></span>
+        <span>WDD 231 Class Project</span>
         <span> - Albert Garcia</span>
-        <span> - Dominican Republic</span>
+        <br>
+        <span>&copy; <span id="current-year"></span></span>
       </div>
       <div class="last-modified" id="lastModified"></div>
     </div>
