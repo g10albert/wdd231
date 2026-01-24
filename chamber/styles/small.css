@@ -195,7 +195,7 @@ a {
 
 /* Home Section - week 3 */
 
-.home-h1 {
+.home-h1, .spotlight-title {
   text-align: center;
 }
 
