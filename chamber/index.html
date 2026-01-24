@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Camara Santiago Digital</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/small.css">
+  <link rel="stylesheet" href="./styles/larger.css">
+  <script defer src="./scripts/navigation.js"></script>
+  <script defer src="./scripts/date.js"></script>
+  <script defer src="./scripts/spotlight.js"></script>
+  <script defer src="./scripts/weather.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-divider">
+      <div class="logo-container">
+        <img class="logo" src="./images/logo.svg" alt="Website logo (a briefcase)">
+        <span class="logo-text">Camara Santiago Digital</span>
+      </div>
+      <div><button class="hamburguer-logo" id="menu-btn">☰</button></div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu">
+        <li class="menu-li">
+          <a class="menu-link" href="../index.html">Home</a>
+        </li>
+        <li class="menu-li">
+          <a class="menu-link" href="./directory.html">Chamber Project</a>
+        </li>
+        <li class="menu-li">
+          <a class="menu-link" href="./final-project.html">Final Project</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home-grid">
+    <section class="hero">
+      <picture>
+        <img src="./images/big-santiago.jpg" alt="Santiago RD Skyline" class="hero-img">
+      </picture>
+      <div class="cta-box">
+        <h2>Grow Your Business in Santiago</h2>
+        <a href="join.html" class="cta-button">Join the Chamber Today</a>
+      </div>
+    </section>
+
+    <div class="info-section-container">
+      <div class="info-section">
+        <section class="events-card">
+          <h3>Current Events</h3>
+          <p>Annual Business Expo - Coming Feb 2026</p>
+        </section>
+        <section class="weather-card">
+          <h3>Weather</h3>
+          <div id="weather-info">
+            <p>Current Temp: <span id="current-temp"></span></p>
+            <p id="weather-desc"></p>
+            <hr>
+            <h4>3-Day Forecast</h4>
+            <div id="forecast"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <section class="spotlights-container">
+      <h3>Member Spotlights</h3>
+      <div id="member-spotlights" class="spotlight-grid">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contact-info">
+      <div class="contact">Camara Santiago Digital</div>
+      <div class="contact">Calle Hermanas Mirabal, 10</div>
+      <div class="contact">Santiago, Dominican Republic</div>
+      <a class="contact contact-mail" href="#">camara@mysite.com</a>
+      <div class="contact">(809) 543-2442</div>
+    </div>
+    <div class="footer-icons-container">
+      <ul class="footer-icons">
+        <li>
+          <a target="_blank" href="https://github.com/g10albert">
+            <img class="footer-icon" src="./images/github.svg" alt="github logo">
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/g10albert/">
+            <img class="footer-icon" src="./images/linkedin.svg" alt="linkedin logo">
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.youtube.com/@g10albert10">
+            <img class="footer-icon" src="./images/youtube.svg" alt="youtube logo">
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="www.instagram.com/g10albert">
+            <img class="footer-icon" src="./images/instagram.svg" alt="instagram logo">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-container">
+      <div class="footer-info">
+        <span>WDD 231 Class Project</span>
+        <span> - Albert Garcia</span>
+        <br>
+        <span>&copy; <span id="current-year"></span></span>
+      </div>
+      <div class="last-modified" id="lastModified"></div>
+    </div>
+  </footer>
+</body>
+
+</html>

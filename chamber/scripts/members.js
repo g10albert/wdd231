@@ -21,7 +21,7 @@ async function getMemberData() {
         <p class="company-name">${member.name}</p>
         <p class="company-address">${member.address}</p>
         <p class="company-number">${member.phoneNumber}</p>
-        <a target="_blank" class="company-website" href="${member.websiteURL}<">${member.websiteURL}</a>
+        <a target="_blank" class="company-website" href="${member.websiteURL}">${member.websiteURL}</a>
 
         <!-- <p class="company-level">silver</p>
         <p class="company-industry">healtcare</p> -->

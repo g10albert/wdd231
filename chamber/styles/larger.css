@@ -37,17 +37,11 @@
     padding: 5px;
   }
 
-
-
-
   /* MAIN */
 
-.btns {
-  margin: 10px;
-}
-
-
-
+  .btns {
+    margin: 10px;
+  }
 
   /* FOOTER */
   .footer-icons-container {
@@ -56,5 +50,15 @@
 
   .footer-icon {
     width: 2.5rem;
+  }
+
+  .info-section-container {
+    width: 600px;
+    margin: auto;
+  }
+
+  .info-section {
+    display: flex;
+    justify-content: space-around;
   }
 }

@@ -192,3 +192,66 @@ a {
   font-size: 0.8rem;
   margin-top: 9px;
 }
+
+/* Home Section - week 3 */
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cta-box, .spotlights-container > h3 {
+  background: rgba(16, 52, 166, 0.8);
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.cta-button {
+  background-color: var(--accent-color);
+  color: var(--text-on-light);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.info-section,
+.spotlights-container > h3 {
+  padding-left: 10px;
+}
+
+.events-card,
+.weather-card {
+  background-color: var(--bg-color);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.events-card h3,
+.weather-card h3 {
+  color: var(--primary-color);
+  margin-top: 0;
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 10px;
+}
+
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+.spotlight-card > img {
+  width: 70%;
+}
