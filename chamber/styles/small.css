@@ -195,6 +195,10 @@ a {
 
 /* Home Section - week 3 */
 
+.home-h1 {
+  text-align: center;
+}
+
 .hero {
   position: relative;
   text-align: center;
